@@ -12,7 +12,7 @@
 // Default positioning when outlet is shared
 #main > div {
   display: flex;
-  flex-direction: column-reverse;
+  flex-direction: column;
 
   .above-site-header-outlet {
     order: -4;
