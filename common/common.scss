@@ -15,15 +15,15 @@
   flex-direction: column;
 
   .above-site-header-outlet {
-    order: -4;
+    order: 4;
   }
   .d-header-wrap {
-    order: -3;
+    order: 3;
   }
   .above-site-header-outlet {
-    order: -1;
+    order: 1;
     & + .above-site-header-outlet {
-      order: -2;
+      order: 2;
     }
   }
 
@@ -36,9 +36,9 @@
 @if $swap_default_positioning == "true" {
   #main > div {
     .above-site-header-outlet {
-      order: -2;
+      order: 2;
       & + .above-site-header-outlet {
-        order: -1;
+        order: 1;
       }
     }
   }
